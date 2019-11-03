@@ -1,0 +1,495 @@
+/* Media Queries */
+
+
+/*992 - 1200 px*/
+@media screen and (max-width: 1200px) {
+	
+	
+
+	.menu__link {
+		font-size: 15px;
+	}
+	
+
+	/*ABOUT PAGE*/
+
+	.nav__link {
+		font-size: 14px;
+	}
+	
+	/*WORDPRESS*/
+
+	.menu ul li a {
+		font-size: 15px;
+	}
+
+}
+
+/*768 - 992 px*/
+@media screen and (max-width: 992px) {
+	
+	.button {
+		font-size: 12px;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.hat {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.menu {
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+
+	.bottom__text {
+		margin-bottom: 30px;
+	}
+
+	.trust__item {
+		margin-bottom: 35px;
+	}
+
+	.button_down {
+		margin-top: 30px;
+	}
+
+	.offer {
+		padding-top: 85px;
+	    padding-bottom: 30px;
+	}
+
+	.offer__item {
+		margin-bottom: 40px;
+	}
+
+	.mission__button {
+		margin-bottom: 45px;
+	}
+	
+	.mission {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.mission__title_news {
+		margin-top: 25px;
+	}
+
+	.news:after {
+		max-width: 266px;
+	}
+
+	.news__par {
+		max-width: 370px;
+	}
+
+	.info {
+		padding-top: 50px;
+	}
+
+	.footer-logo {
+		margin-top: 10px;
+	}
+
+	.fh	{
+		padding-top: 30px;
+	}
+
+	/*ABOUT PAGE*/
+	
+	.header-nav {
+		padding-bottom: 60px;
+	}
+
+	.header-nav__breadcrumbs {
+		margin: 0 auto;
+    	max-width: 175px;
+	}
+
+	.nav__list {
+		margin: 0 auto;
+	}
+
+	.header-nav__title {
+		text-align: center;
+	}
+
+	.nav {
+		margin-top: 40px;
+	}
+
+	.photo {
+		padding-bottom: 60px;
+	}
+
+	/*SERVICES PAGE*/
+
+	.header-nav__breadcrumbs_services {
+		max-width: 128px;
+	}
+
+	.law-top__text {
+		max-width: none;
+	}
+
+	.advice {
+		width: auto;
+	}
+
+	.side__link {
+		max-width: 680px;
+	}
+
+	.aside {
+		padding-bottom: 50px;
+	}
+
+	/*CONTACTS PAGE*/
+
+	.header-nav__breadcrumbs_contacts {
+		max-width: 265px;
+	}
+	
+	.baloon {
+		position: static;
+		margin:20px auto;
+		max-width: 690px;
+	}
+
+	.baloon__right {
+		max-width: 340px;
+	}
+
+	.baloon:after {
+		display: none;
+	}
+
+	/*WORDPRESS*/
+
+	.breadcrumbs {
+		justify-content: center;
+	}
+}
+
+/*576 - 767 px*/
+@media screen and (max-width: 767px) {
+	
+	.footer-logo {
+		margin: 30px auto ;
+		display: block;
+		max-width: 207px;
+	}
+
+	.design {
+	    margin: 0 auto;
+    	max-width: 173px;
+    	margin-top: 30px;
+	}
+	
+	.fh {
+		padding-top: 50px;
+		padding-bottom: 55px;
+	}
+
+	.fh__contacts, .copyright {
+		text-align: center;
+	}
+
+	.copyright {
+		margin-top: 30px;
+	}
+
+	.button_footer {
+		margin:0 auto;
+		margin-top: 40px;
+	}
+	/*ABOUT PAGE*/
+
+	.photo__wrap {
+		margin-bottom: 30px;
+	}
+
+	/*SERVICES PAGE*/
+
+	.nav__link_services {
+		align-items: center;
+	}
+
+	.law-top__title {
+		text-align: center;
+	}
+
+	.law-top__text {
+		text-align: center;
+	}
+
+	.nav__list_services {
+		flex-direction: column;
+	}
+
+	/*CONTACTS PAGE*/
+
+	.baloon__right {
+		max-width: 182px;
+	}
+}
+
+/*320 - 576 px*/
+@media screen and (max-width: 576px) {
+	
+	.bottom__title {
+		font-size: 52px;
+	}
+
+	.bottom__text {
+		font-size: 22px;
+	}
+	
+	.header__bottom {
+		padding-top: 30px;
+		padding-bottom: 60px;
+	}
+
+	.down {
+		padding-top: 50px;
+	}
+
+	.mission__block {
+		flex-direction: column;
+	}
+
+	.mission__button {
+	    margin: 25px auto;
+	}
+
+	.mission__right, .mission__left {
+		margin-left: 0;
+		max-width: none;
+	}
+
+	.news:after {
+		max-width: 510px;
+	}
+
+
+	.info__main-link {
+		display: block;
+	}
+	
+	
+
+	.footer-logo {
+		margin-top: 10px;
+	}
+
+	.info__main-link, .info__main-text, .info__list  {
+		text-align: center;
+
+	}
+
+	.button__text_hat {
+		display: none;
+	}
+
+	.button_hat {
+	    min-width: auto;
+   	 	width: 40px;
+   	 	height: 33px;
+	}
+	
+	.button_footer:active {
+		margin-top: 40px;
+		background: #158658;
+	}
+
+	.button__icon_hat {
+		margin-right: 0;
+	}
+
+	/*ABOUT PAGE */
+
+	.header-nav {
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	.nav__list {
+		flex-direction: column;
+	}
+
+	.advantage-list__element {
+		flex-direction: column;
+	}
+
+	.advantage-list__icon {
+		margin-bottom: 30px;
+	}
+
+	.advantage-list__title {
+		margin-bottom: 20px;
+	}
+
+	.photo__wrap {
+	    width: 100%;
+	    max-width: 269px;
+	    margin: 0 auto;
+	}
+
+	.photo__img {
+		margin-bottom: 15px;
+	}
+
+	.photo {
+		padding-bottom: 13px;
+	}
+
+	/*SERVICES PAGE*/
+
+	.law-top__img {
+		margin: 15px auto;
+	}
+
+	.header-nav {
+		padding-bottom: 35px;
+	}
+	
+	.advice {
+		background: none;
+	}
+
+}
+
+
+/* BALOON - 400 - 480 px*/
+@media screen and (max-width: 480px) {
+
+	.baloon {
+		min-height: 440px;
+	}
+
+	.baloon__bot {
+		flex-direction: column;
+	}
+
+	.baloon__right {
+	    display: flex;
+		flex-direction: column;
+		max-width: 380px;
+		margin-top: 20px;
+	}
+
+}
+
+
+/* BALOON - 320 - 400 px*/
+@media screen and (max-width: 400px) {
+
+	.baloon {
+		height: 500px;
+	}
+
+	.baloon__bot {
+		display: flex;
+		align-items: center;
+	}
+
+	.baloon__top {
+	    display: flex;
+	    flex-direction: column;
+	    text-align: center;
+	}
+
+	.baloon__links {
+	    margin-top: 10px;
+    	margin-bottom: 10px;
+	}
+
+	.contact {
+		text-align: center;
+	}
+	
+	.baloon__right {
+	   text-align: center;
+	}
+
+}
+
+/* ADVICE, MENU, BOX-MODAL - 320 - 460 px*/
+@media screen and (max-width: 460px) {
+	
+	.menu__list{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.menu__item {
+	    padding: 10px 0 13px 0;
+	}
+
+	.menu {
+		margin-top: 30px;
+		margin-bottom: 15px;
+
+	}
+	
+	.advice__phone {
+		display: block;
+    	text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	
+	.advice__title {
+		text-align: center;
+	}
+
+	.advice__text {
+	    margin: 0 auto;
+		text-align: center;
+    	max-width: 480px;
+	}
+
+	.advice__button {
+		margin: 0 auto;
+    	display: block;
+	}
+
+	.box-modal {
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+
+	.form__input {
+		margin-top: 5px;
+	}
+
+	.button_modal {
+		margin-top: 20px;
+	}
+
+	/*WORDPRESS*/
+
+	.current-menu-item{
+		border-top: none;
+		border-bottom: none;
+	}
+
+	.menu ul li {
+		margin-bottom: 10px;
+	}
+
+	.info__element {
+		
+	}
+
+	.box-modal {
+		padding: 24px;
+	}
+
+}
+
